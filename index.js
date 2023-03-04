@@ -8,8 +8,6 @@ app.listen(8080, function(){
     console.log('listening on 8080')
 });
 
-
-
 app.get('/test', function(req, res){
     res.send('/test에 응답 페이지')
 }); 
